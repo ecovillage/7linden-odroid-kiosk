@@ -1,8 +1,6 @@
-# 7linden....
+# 7linden-odroid-kiosk
 
-Create a .deb package (suitable for xbuntu, Debian, Linux Mint).
-
-The package just depends on a number of important tools (as an example).
+Stuff for experimentation with an odroid c2 to be used as an lxde kiosk.
 
 ## Package building
 
@@ -10,7 +8,7 @@ To build the package you need to have [FPM](https://github.com/jordansissel/fpm)
 
 ## License
 
-Copyright 2015, 2016 Felix Wolfsteller.
+Copyright 2016 Felix Wolfsteller.
 
 Released under the [GPLv3](LICENSE) or any later version included as LICENSE file.
 

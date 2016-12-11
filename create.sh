@@ -1,17 +1,22 @@
 #!/bin/bash
-# Copyright 2015, 2016 Felix Wolfsteller
+# Copyright 2016 Felix Wolfsteller
 # Released under the GPL3+
 
-# Create 7linden-**.deb
+# Create 7linden-odroid-kiosk.deb
 
 fpm -s empty\
     -t deb\
     -v `cat VERSION`\
     -a all\
-    --name "TODO: 7linden-package-template"\
-    --description "TODO: What this package does"\
+    --name "7linden-odroid-kiosk"\
+    --description "Not yet sure, depend on some packages first"\
     --depends vim\
     --depends w3m\
+    --depends curl\
+    --depends wget\
+    --depends htop\
+    --depends mali-x11\
+    --depends xserver-xorg-video-mali\
     --license "GPLv3+"\
     --maintainer "felix.wolfsteller@gmail.com"
 
